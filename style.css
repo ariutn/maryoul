@@ -1,0 +1,58 @@
+body {
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.club {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.club img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-top: 10px;
+  display: block;
+}
+
+.club input[type="text"],
+.club input[type="file"] {
+  margin-top: 10px;
+  width: 100%;
+  padding: 6px;
+}
+
+.controls button {
+  margin: 5px 3px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.points {
+  margin-top: 10px;
+  font-weight: bold;
+  color: green;
+  font-size: 1.2em;
+}
+
+button.add-club {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
